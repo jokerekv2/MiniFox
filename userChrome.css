@@ -430,6 +430,10 @@ window,
     background: var(--uc-hover-colour) !important;
 }
 
+.urlbarView-body-inner { 
+    border-top: none !important; 
+}
+
 /* Obramówka url'a */
 #urlbar-input-container {
     border: 2px solid var(--secondary-colour) !important;
