@@ -388,6 +388,10 @@ window,
     border: var(--uc-hover-colour) !important;
 }
 
+#urlbar[open] {
+  margin-top: 3px !important;
+}
+
 #urlbar[focused="true"] > #urlbar-background,
 #urlbar:not([open]) > #urlbar-background {
     background: transparent !important;
